@@ -64,7 +64,7 @@ nav ul li{
 nav ul li a{
     color: #fff;
     text-decoration: none;
-    font-size: 2.35vmin;
+    font-size: 2.2vmin;
 }
 nav ul li a::after{
     content: '';
