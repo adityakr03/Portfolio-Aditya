@@ -10,22 +10,18 @@ html{
 }
 body{
     background-color: black;
-    /* background-image: url(https://i.gifer.com/7Ik1.gif); */
 }
 #header{
-    /* width: 100%; */
-    height: 20vmin;
-    /* background-image: url(images/background.png); */
+    height: 15vmin;
     background-image: url(https://i.gifer.com/7Ik1.gif);
     background-size: contain;
     background-position: justify;
 }
 h1{
-    padding: 0;
-    margin-top: 50px;
+    margin-top: 45px;
     color: white;
     display: inline;
-    font-size: 8vmin;
+    font-size: 8.5vmin;
 }
 h2{
     font-size: 6vmin;
@@ -49,7 +45,7 @@ span{
     color: red ;
 }
 .container{
-    padding: 1vmin 5%;
+    padding: 2vmin 5%;
     font-size: 10vmin;
 }
 nav{
@@ -68,7 +64,7 @@ nav ul li{
 nav ul li a{
     color: #fff;
     text-decoration: none;
-    font-size: 2vmin;
+    font-size: 2.35vmin;
 }
 nav ul li a::after{
     content: '';
@@ -84,11 +80,11 @@ nav ul li a:hover::after{
     width: 100%;
 }
 p{
-    font-size: 2vmin;
+    font-size: 2.5vmin;
     padding: 0;
 }
 #small{
-    font-size: 2vmin;
+    font-size: 2.20vmin;
 }
 /* about section */
 #about{
@@ -182,13 +178,13 @@ i{
 }
 a{
     color: aqua;
-    font-size: 2vmin;
+    font-size: 2.25vmin;
     text-decoration: none;
     display: inline-block;
 }
 #block i{
     display: inline block;
-    font-size: 2vmin;
+    font-size: 2.25vmin;
     color: red;
 }
 /* Portfolio */
@@ -230,7 +226,7 @@ a{
     flex-direction: column;
     padding: 0 2vmin;
     text-align: center;
-    font-size: 14px;
+    font-size: 2.25vmin;
     transition: height 0.5s;
 }
 .layer h3{
@@ -241,7 +237,8 @@ a{
     margin-top: 2vmin;
     color: #ff004f;
     text-decoration: none;
-    font-size: 2vmin;
+    font-size: 2.25vmin;
+    font-weight: 900;
     line-height: 3.5vmin;
     background: white;
     width: 3.5vmin;
@@ -295,7 +292,7 @@ a{
     border-radius: 1.5vmin;
     padding: 1.5vmin 4vmin;
     font-weight: 300;
-    font-size: 2vmin;
+    font-size: 2.25vmin;
     display: inline-block;
     width: fit-content;
     border: 0;
@@ -312,15 +309,9 @@ form input, form textarea{
     padding: 1.5vmin;
     margin: 1.5vmin 0;
     color: white;
-    font-size: 2vmin;
+    font-size: 2.25vmin;
     border-radius: 1.5vmin;
 }
 form .btn-2{
     cursor: pointer;
-}
-#msg{
-    color: #61b752;
-    margin-top: -0.25vmin;
-    display: block;
-    font-size: 2.5vmin;
 }
