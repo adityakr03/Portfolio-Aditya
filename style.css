@@ -37,6 +37,7 @@ span{
 }
 #mod-1{
     padding-left: 5vmin;
+    padding-top: 3vmin;
 }
 #strong{
     font-weight: 800;
@@ -45,7 +46,7 @@ span{
     color: red ;
 }
 .container{
-    padding: 2vmin 5%;
+    padding: 2vmin 5vmin;
     font-size: 10vmin;
 }
 nav{
